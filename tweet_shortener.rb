@@ -11,11 +11,11 @@ def word_substituter(tweet)
     dictionary.keys.each do |key|
       if word == key
         word = dictionary[key]
-      end
-        word
     end
-      
+    word
+    end
+    tweet_array.join(" ")
     end
   end
-  tweet_array.join(" ")
+  
 end
