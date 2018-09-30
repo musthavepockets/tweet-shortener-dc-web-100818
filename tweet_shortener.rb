@@ -11,10 +11,9 @@ def word_substituter(tweet)
     dictionary.keys.each do |key|
       if word == key
         word = dictionary[key]
-      else
-        binding.pry
-        word
       end
+        word
+    end
       
     end
   end
