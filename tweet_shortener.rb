@@ -27,7 +27,7 @@ end
 
 def selective_tweet_shortener(tweet)
   binding.pry
-  if tweet.split.length <= 140
+  if tweet.to_a.length <= 140
     word_substituter(tweet)
   else
     puts tweet
