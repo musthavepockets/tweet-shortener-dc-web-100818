@@ -15,9 +15,10 @@ def word_substituter(tweet)
         binding.pry
         word
       end
-      tweet_array.join(" ")
+      
     end
-  
+    
   
   end
+  tweet_array.join(" ")
 end
