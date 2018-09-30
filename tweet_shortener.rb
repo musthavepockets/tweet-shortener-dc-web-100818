@@ -12,8 +12,9 @@ def word_substituter(tweet)
       if dictionary.keys.include?(word) == true
         word = value
       end
+      tweet_array.join(" ")
     end
-  tweet_array.join(" ")
+  
   binding.pry
   end
 end
