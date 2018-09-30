@@ -13,10 +13,11 @@ def word_substituter(tweet)
     else
       word
     end
-    
   end
   short_tweet.join(" ")
-  
-  
+end
 
+
+def bulk_tweet_shortener(tweets)
+  binding.pry
 end
