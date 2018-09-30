@@ -12,11 +12,12 @@ def word_substituter(tweet)
       if word == key
         word = value
       else
+        binding.pry
         word
       end
       tweet_array.join(" ")
     end
-  binding.pry
+  
   
   end
 end
