@@ -10,7 +10,7 @@ def word_substituter(tweet)
   tweet_array.each do |word|
     dictionary.each do |key, value|
       if dictionary.keys.include?(word) == true
-        word = dictionary[key]
+        word = value
       end
     end
   tweet_array.join(" ")
