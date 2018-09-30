@@ -16,7 +16,7 @@ def word_substituter(tweet)
       end
       tweet_array.join(" ")
     end
-  
+  binding.pry
   
   end
 end
